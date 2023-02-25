@@ -5,9 +5,10 @@ Submitted by : Jaideep R - No Partners</br>
 Registered email id : jaideepmr@gmail.com</br>
 
 
-**Model9.py Link**
+1. **Model9.py Link**
 [Model9.py]<https://github.com/jai-mr/Session/blob/main/S9/src/models/model9.py>
 
+2. **Training Log**
 ```
 EPOCH = 1 | LR = 0.00023239263803680982 | Loss = 2.30 | Batch = 97 | Accuracy = 9.93: 100%|█| 98/98 [01:50<00:00,  1.13
 Test set: Average loss: 0.0046, Accuracy: 1000/10000 (10.00%)
@@ -82,7 +83,7 @@ EPOCH = 24 | LR = 0.001 | Loss = 2.30 | Batch = 97 | Accuracy = 10.00: 100%|█�
 Test set: Average loss: 0.0046, Accuracy: 1000/10000 (10.00%)
 ```
 
-**Training and Validation Loss Chart**
+3. **Training and Validation Loss Chart**
 <img src="images/trainingandloss.png" alt="Training and Loss" style="height: 1000px; width:1000px;"/>
 
-https://github.com/jai-mr/Session/blob/main/S9/images/trainingandloss.png
+4. [Jupyter Notebook]<https://github.com/jai-mr/Session/blob/main/S9/src/models/model9.py>
