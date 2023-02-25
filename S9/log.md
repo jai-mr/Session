@@ -74,6 +74,5 @@ EPOCH = 24 | LR = 0.001 | Loss = 2.30 | Batch = 97 | Accuracy = 10.00: 100%|â–ˆâ
 Test set: Average loss: 0.0046, Accuracy: 1000/10000 (10.00%)
 
 ```
-
 **Training and Validation Loss Chart**
 <img src="images/trainingandloss.png" alt="Training and Loss" style="height: 1000px; width:1000px;"/>
