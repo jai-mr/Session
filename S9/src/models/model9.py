@@ -4,57 +4,7 @@ import torch.nn.functional as F
 
 dropout = 0.05
 
-class TransformerModel(nn.Module):
-    def __init__(self, num_classes=10, n_features=48):
-        super(TransformerModel, self).__init__()
 
-        self.conv_block = nn.Sequential(
-            nn.Conv2d(in_channels=3, out_channels=16, kernel_size=3, padding=1),
-            nn.BatchNorm2d(16),
-            nn.ReLU(),
-            nn.Dropout(dropout),
-            nn.Conv2d(in_channels=16, out_channels=32, kernel_size=3, padding=1),
-            nn.BatchNorm2d(32),
-            nn.ReLU(),
-            nn.Dropout(dropout),
-            nn.Conv2d(in_channels=32, out_channels=48, kernel_size=3, padding=1),
-            nn.BatchNorm2d(48),
-            nn.ReLU(),
-            nn.Dropout(dropout),
-        )
-
-        self.gap = nn.AdaptiveAvgPool2d(1)
-
-        self.ultimus_blocks = nn.Sequential(
-            UltimusBlock(in_channels=48),
-            UltimusBlock(in_channels=48),
-            UltimusBlock(in_channels=48),
-            UltimusBlock(in_channels=48),
-        )
-
-
-        self.final_fc = nn.Linear(
-            in_features=n_features, out_features=num_classes, bias=False
-        )
-
-    def forward(self, x):
-        x = self.conv_block(x)
-        x = self.gap(x)
-
-        # Reshape [batch_size, 48, 1, 1] to [batch_size, 48]
-        x = x.view(-1, 48)
-
-        x = self.ultimus_blocks(x)
-
-        out = self.final_fc(x)
-
-        # Reshape to [batch_size, 10]
-        out = out.view(out.size(0), -1)
-        return out
-
-
-
- 
 class UltimusBlock(nn.Module):
     def __init__(self, in_channels):
         super(UltimusBlock, self).__init__()
@@ -109,4 +59,52 @@ class UltimusNet(nn.Module):
         x = self.fc(x)
         return x
         
+        class TransformerModel(nn.Module):
+    def __init__(self, num_classes=10, n_features=48):
+        super(TransformerModel, self).__init__()
+
+        self.conv_block = nn.Sequential(
+            nn.Conv2d(in_channels=3, out_channels=16, kernel_size=3, padding=1),
+            nn.BatchNorm2d(16),
+            nn.ReLU(),
+            nn.Dropout(dropout),
+            nn.Conv2d(in_channels=16, out_channels=32, kernel_size=3, padding=1),
+            nn.BatchNorm2d(32),
+            nn.ReLU(),
+            nn.Dropout(dropout),
+            nn.Conv2d(in_channels=32, out_channels=48, kernel_size=3, padding=1),
+            nn.BatchNorm2d(48),
+            nn.ReLU(),
+            nn.Dropout(dropout),
+        )
+
+        self.gap = nn.AdaptiveAvgPool2d(1)
+
+        self.ultimus_blocks = nn.Sequential(
+            UltimusBlock(in_channels=48),
+            UltimusBlock(in_channels=48),
+            UltimusBlock(in_channels=48),
+            UltimusBlock(in_channels=48),
+        )
+
+
+        self.final_fc = nn.Linear(
+            in_features=n_features, out_features=num_classes, bias=False
+        )
+
+    def forward(self, x):
+        x = self.conv_block(x)
+        x = self.gap(x)
+
+        # Reshape [batch_size, 48, 1, 1] to [batch_size, 48]
+        x = x.view(-1, 48)
+
+        x = self.ultimus_blocks(x)
+
+        out = self.final_fc(x)
+
+        # Reshape to [batch_size, 10]
+        out = out.view(out.size(0), -1)
+        return out
+
         
