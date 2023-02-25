@@ -24,15 +24,7 @@ class UltimusBlock(nn.Module):
         z = self.fc_out(z)
         return z
 
-    # def _am(self, q, k):
-        # am = (q.transpose(1, 2) @ k) / self.sqrt_d_k
-
-        # return F.softmax(am, dim=1)
-
-    # def _z(self, v, am):
-        # return v @ am
-
-        
+     
 class UltimusNet(nn.Module):
     def __init__(self):
         super(UltimusNet, self).__init__()
