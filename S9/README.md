@@ -6,7 +6,7 @@ Registered email id : jaideepmr@gmail.com</br>
 
 
 1. **Model9.py Link**
-[Model9.py]<https://github.com/jai-mr/Session/blob/main/S9/src/models/model9.py>
+[Model9.py](https://github.com/jai-mr/Session/blob/main/S9/src/models/model9.py)
 
 2. **Training Log**
 ```
@@ -86,4 +86,4 @@ Test set: Average loss: 0.0046, Accuracy: 1000/10000 (10.00%)
 3. **Training and Validation Loss Chart**
 <img src="images/trainingandloss.png" alt="Training and Loss" style="height: 1000px; width:1000px;"/>
 
-4. [Jupyter Notebook]<https://github.com/jai-mr/Session/blob/main/S9/src/models/model9.py>
+4. [Jupyter Notebook](https://github.com/jai-mr/Session/blob/main/S9/src/models/model9.py)
