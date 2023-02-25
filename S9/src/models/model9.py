@@ -2,9 +2,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-dropout = 0.05
-
-
 class UltimusBlock(nn.Module):
     def __init__(self, in_channels):
         super(UltimusBlock, self).__init__()
@@ -51,7 +48,7 @@ class UltimusNet(nn.Module):
         x = self.fc(x)
         return x
         
-        class TransformerModel(nn.Module):
+class TransformerModel(nn.Module):
     def __init__(self, num_classes=10, n_features=48):
         super(TransformerModel, self).__init__()
 
@@ -79,7 +76,6 @@ class UltimusNet(nn.Module):
             UltimusBlock(in_channels=48),
         )
 
-
         self.final_fc = nn.Linear(
             in_features=n_features, out_features=num_classes, bias=False
         )
@@ -98,5 +94,3 @@ class UltimusNet(nn.Module):
         # Reshape to [batch_size, 10]
         out = out.view(out.size(0), -1)
         return out
-
-        
