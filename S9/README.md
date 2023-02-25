@@ -5,7 +5,7 @@ Submitted by : Jaideep R - No Partners</br>
 Registered email id : jaideepmr@gmail.com</br>
 
 
-1. **Model9.py Link**
+1. **Model9.py Link**</br>
 [Model9.py](https://github.com/jai-mr/Session/blob/main/S9/src/models/model9.py)
 
 2. **Training Log**
@@ -83,7 +83,8 @@ EPOCH = 24 | LR = 0.001 | Loss = 2.30 | Batch = 97 | Accuracy = 10.00: 100%|â–ˆâ
 Test set: Average loss: 0.0046, Accuracy: 1000/10000 (10.00%)
 ```
 
-3. **Training and Validation Loss Chart**
+3. **Training and Validation Loss Chart**</br>
 <img src="images/trainingandloss.png" alt="Training and Loss" style="height: 1000px; width:1000px;"/>
 
-4. [Jupyter Notebook](https://github.com/jai-mr/Session/blob/main/S9/src/models/model9.py)
+4. **Jupyter Notebook**</br>
+[Jupyter Notebook](https://github.com/jai-mr/Session/blob/main/S9/src/models/model9.py)
