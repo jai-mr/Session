@@ -87,4 +87,4 @@ Test set: Average loss: 0.0046, Accuracy: 1000/10000 (10.00%)
 <img src="images/trainingandloss.png" alt="Training and Loss" style="height: 1000px; width:1000px;"/>
 
 4. **Jupyter Notebook**</br>
-[Jupyter Notebook](https://github.com/jai-mr/Session/blob/main/S9/src/models/model9.py)
+[Jupyter Notebook](https://github.com/jai-mr/Session/blob/main/S9/E8S9.ipynb)
