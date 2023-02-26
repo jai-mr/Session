@@ -138,8 +138,10 @@ Test set: Average loss: 0.0046, Accuracy: 1000/10000 (10.00%)
 ```
 
 5. Training Details</br>
-i. <img src="images/trainingimages.png" alt="Sample Training Images"/>
-ii. 
+i.   <img src="images/trainingimages.png" alt="Sample Training Images"/>
+ii.  Epochs = 24
+iii. Max LR = 0.001
+iv.  Min LR = 4.196319018404908e-05
 
 6. **Training and Validation Loss Chart**</br>
 <img src="images/trainingandloss.png" alt="Training and Loss"/>
