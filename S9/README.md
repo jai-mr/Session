@@ -8,7 +8,59 @@ Registered email id : jaideepmr@gmail.com</br>
 1. **Model9.py Link**</br>
 [Model9.py](https://github.com/jai-mr/Session/blob/main/S9/src/models/model9.py)
 
-2. **Training Log**
+2. **Jupyter Notebook**</br>
+[Jupyter Notebook](https://github.com/jai-mr/Session/blob/main/S9/E8S9.ipynb)
+
+
+3. **Model Parameters**</br>
+```
+==============================================================================================================================================================================================
+Layer (type (var_name))                  Kernel Shape              Input Shape               Output Shape              Param #                   Mult-Adds                 Trainable
+==============================================================================================================================================================================================
+UltimusNet (UltimusNet)                  --                        [20, 3, 32, 32]           [20, 10]                  --                        --                        True
+├─Conv2d (conv1)                         [3, 3]                    [20, 3, 32, 32]           [20, 16, 32, 32]          448                       9,175,040                 True
+├─Conv2d (conv2)                         [3, 3]                    [20, 16, 32, 32]          [20, 32, 32, 32]          4,640                     95,027,200                True
+├─Conv2d (conv3)                         [3, 3]                    [20, 32, 32, 32]          [20, 48, 32, 32]          13,872                    284,098,560               True
+├─AdaptiveAvgPool2d (avgpool)            --                        [20, 48, 32, 32]          [20, 48, 1, 1]            --                        --                        --
+├─UltimusBlock (ultimus1)                --                        [20, 48]                  [20, 48]                  --                        --                        True
+│    └─Linear (fc_k)                     --                        [20, 48]                  [20, 8]                   392                       7,840                     True
+│    └─Linear (fc_q)                     --                        [20, 48]                  [20, 8]                   392                       7,840                     True
+│    └─Linear (fc_v)                     --                        [20, 48]                  [20, 8]                   392                       7,840                     True
+│    └─Softmax (softmax)                 --                        [20, 20]                  [20, 20]                  --                        --                        --
+│    └─Linear (fc_out)                   --                        [20, 8]                   [20, 48]                  432                       8,640                     True
+├─UltimusBlock (ultimus2)                --                        [20, 48]                  [20, 48]                  --                        --                        True
+│    └─Linear (fc_k)                     --                        [20, 48]                  [20, 8]                   392                       7,840                     True
+│    └─Linear (fc_q)                     --                        [20, 48]                  [20, 8]                   392                       7,840                     True
+│    └─Linear (fc_v)                     --                        [20, 48]                  [20, 8]                   392                       7,840                     True
+│    └─Softmax (softmax)                 --                        [20, 20]                  [20, 20]                  --                        --                        --
+│    └─Linear (fc_out)                   --                        [20, 8]                   [20, 48]                  432                       8,640                     True
+├─UltimusBlock (ultimus3)                --                        [20, 48]                  [20, 48]                  --                        --                        True
+│    └─Linear (fc_k)                     --                        [20, 48]                  [20, 8]                   392                       7,840                     True
+│    └─Linear (fc_q)                     --                        [20, 48]                  [20, 8]                   392                       7,840                     True
+│    └─Linear (fc_v)                     --                        [20, 48]                  [20, 8]                   392                       7,840                     True
+│    └─Softmax (softmax)                 --                        [20, 20]                  [20, 20]                  --                        --                        --
+│    └─Linear (fc_out)                   --                        [20, 8]                   [20, 48]                  432                       8,640                     True
+├─UltimusBlock (ultimus4)                --                        [20, 48]                  [20, 48]                  --                        --                        True
+│    └─Linear (fc_k)                     --                        [20, 48]                  [20, 8]                   392                       7,840                     True
+│    └─Linear (fc_q)                     --                        [20, 48]                  [20, 8]                   392                       7,840                     True
+│    └─Linear (fc_v)                     --                        [20, 48]                  [20, 8]                   392                       7,840                     True
+│    └─Softmax (softmax)                 --                        [20, 20]                  [20, 20]                  --                        --                        --
+│    └─Linear (fc_out)                   --                        [20, 8]                   [20, 48]                  432                       8,640                     True
+├─Linear (fc)                            --                        [20, 48]                  [20, 10]                  490                       9,800                     True
+==============================================================================================================================================================================================
+Total params: 25,882
+Trainable params: 25,882
+Non-trainable params: 0
+Total mult-adds (M): 388.44
+==============================================================================================================================================================================================
+Input size (MB): 0.25
+Forward/backward pass size (MB): 15.78
+Params size (MB): 0.10
+Estimated Total Size (MB): 16.13
+==============================================================================================================================================================================================
+```
+
+4. **Training Log**
 ```
 EPOCH = 1 | LR = 0.00023239263803680982 | Loss = 2.30 | Batch = 97 | Accuracy = 9.93: 100%|█| 98/98 [01:50<00:00,  1.13
 Test set: Average loss: 0.0046, Accuracy: 1000/10000 (10.00%)
@@ -83,8 +135,18 @@ EPOCH = 24 | LR = 0.001 | Loss = 2.30 | Batch = 97 | Accuracy = 10.00: 100%|█�
 Test set: Average loss: 0.0046, Accuracy: 1000/10000 (10.00%)
 ```
 
-3. **Training and Validation Loss Chart**</br>
+5. Training Details 
+i. <img src="images/trainingimages.png" alt="Sample Training Images" style="height: 1000px; width:1000px;"/>
+ii. 
+
+6. **Training and Validation Loss Chart**</br>
 <img src="images/trainingandloss.png" alt="Training and Loss" style="height: 1000px; width:1000px;"/>
 
-4. **Jupyter Notebook**</br>
-[Jupyter Notebook](https://github.com/jai-mr/Session/blob/main/S9/E8S9.ipynb)
+7. LR Finder Graph
+<img src="images/Lr-Finder.png" alt="LR Finder" style="height: 1000px; width:1000px;"/>
+
+8. LR History
+<img src="images/LR-History.png" alt="LR History" style="height: 1000px; width:1000px;"/>
+
+9. Misclassified Images
+<img src="images/MisClassifiedImages.png" alt="MisClassified Images" style="height: 1000px; width:1000px;"/>
