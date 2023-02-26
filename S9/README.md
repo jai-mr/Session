@@ -5,7 +5,7 @@ Submitted by : Jaideep R - No Partners</br>
 Registered email id : jaideepmr@gmail.com</br>
 
 **Objective:***</br>
-<img src="images/objective.PNG" alt="Objective in Assignment"/>
+<img src="images/objective.png" alt="Objective in Assignment"/>
 
 1. **Model9.py Link**</br>
 [Model9.py](https://github.com/jai-mr/Session/blob/main/S9/src/models/model9.py)
