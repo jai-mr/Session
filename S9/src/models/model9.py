@@ -2,6 +2,13 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
+'''
+The UltimusBlock class defines a single self-attention block. 
+The block takes an input tensor and applies three linear transformations (fc_k, fc_q, and fc_v) to project the input into three different spaces. 
+The resulting key, query, and value tensors are then used to compute an attention matrix(AM) using matrix multiplication and a softmax activation function. 
+The attention matrix is then used to weight the value tensor and compute a weighted sum 
+This is then projected back into the original space using another linear transformation (fc_out).
+'''
 class UltimusBlock(nn.Module):
     def __init__(self, in_channels):
         super(UltimusBlock, self).__init__()
@@ -15,12 +22,21 @@ class UltimusBlock(nn.Module):
         k = self.fc_k(x)
         q = self.fc_q(x)
         v = self.fc_v(x)
-        attn = torch.matmul(q, k.transpose(1, 0))
-        attn = self.softmax(attn / (k.shape[-1]**0.5))
-        z = torch.matmul(attn, v)
+        AM = torch.matmul(q, k.transpose(1, 0))
+        AM = self.softmax(AM / (k.shape[-1]**0.5))
+        z = torch.matmul(AM, v)
         z = self.fc_out(z)
         return z
-
+'''
+The UltimusNet class defines the entire neural network.
+The first three convolutional layers use a kernel size of 3x3 with padding of 1
+They progressively increase the number of output channels from 16 to 32 to 48, which increases the depth and complexity of the learned features
+The adaptive average pooling layer reduces the spatial dimensions of the output of the last convolutional layer to a size of 1x1. 
+This effectively collapses the spatial information and retains only the channel information, which can be used to capture global context of the input.
+The adaptive average pooling layer reduces the spatial dimensions of the output of the last convolutional layer to a size of 1x1. 
+This effectively collapses the spatial information and retains only the channel information, which can be used to capture global context of the input.
+The output of the last Ultimus block is passed through a linear layer with 10 output units, which corresponds to the number of classes in the classification task
+'''
      
 class UltimusNet(nn.Module):
     def __init__(self):
