@@ -60,7 +60,7 @@ Estimated Total Size (MB): 16.13
 ==============================================================================================================================================================================================
 ```
 
-4. **Training Log**
+4. **Training Log**</br>
 ```
 EPOCH = 1 | LR = 0.00023239263803680982 | Loss = 2.30 | Batch = 97 | Accuracy = 9.93: 100%|█| 98/98 [01:50<00:00,  1.13
 Test set: Average loss: 0.0046, Accuracy: 1000/10000 (10.00%)
@@ -135,18 +135,18 @@ EPOCH = 24 | LR = 0.001 | Loss = 2.30 | Batch = 97 | Accuracy = 10.00: 100%|█�
 Test set: Average loss: 0.0046, Accuracy: 1000/10000 (10.00%)
 ```
 
-5. Training Details 
-i. <img src="images/trainingimages.png" alt="Sample Training Images" style="height: 1000px; width:1000px;"/>
+5. Training Details</br>
+i. <img src="images/trainingimages.png" alt="Sample Training Images"/>
 ii. 
 
 6. **Training and Validation Loss Chart**</br>
-<img src="images/trainingandloss.png" alt="Training and Loss" style="height: 1000px; width:1000px;"/>
+<img src="images/trainingandloss.png" alt="Training and Loss"/>
 
-7. LR Finder Graph
-<img src="images/Lr-Finder.png" alt="LR Finder" style="height: 1000px; width:1000px;"/>
+7. **LR Finder Graph**</br>
+<img src="images/LR-finder.png" alt="LR Finder"/>
 
-8. LR History
-<img src="images/LR-History.png" alt="LR History" style="height: 1000px; width:1000px;"/>
+8. **LR History**</br>
+<img src="images/LR-History.png" alt="LR History"/>
 
-9. Misclassified Images
-<img src="images/MisClassifiedImages.png" alt="MisClassified Images" style="height: 1000px; width:1000px;"/>
+9. **Misclassified Images**</br>
+<img src="images/MisClassifiedImages.png" alt="MisClassified Images"/>
