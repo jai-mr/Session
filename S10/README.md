@@ -16,10 +16,10 @@ Re-writing the network as in link such that it is similar to the network we wrot
 
 
 1. **Model10.py Link**</br>
-[Model9.py](https://github.com/jai-mr/Session/blob/main/S9/src/models/model10.py)
+[Model10.py](https://github.com/jai-mr/Session/blob/main/S10/src/models/model10.py)
 
 2. **Jupyter Notebook**</br>
-[Jupyter Notebook](https://github.com/jai-mr/Session/blob/main/S9/E8S10.ipynb)
+[Jupyter Notebook](https://github.com/jai-mr/Session/blob/main/S10/E8S10.ipynb)
 
 
 3. **Model Parameters**</br>
