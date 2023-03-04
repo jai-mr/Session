@@ -5,7 +5,7 @@ Submitted by : Jaideep R - No Partners</br>
 Registered email id : jaideepmr@gmail.com</br>
 
 **Objective:***</br>
-Re-writing the network as in link such that it is similar to the network we wrote in the class
+Re-writing the network as in link such that it is similar to the network we wrote in the class</br>
 	https://github.com/kentaroy47/vision-transformers-cifar10/blob/main/models/vit.py
 
 	 i. All parameters are the same as the network we wrote
