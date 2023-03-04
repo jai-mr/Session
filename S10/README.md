@@ -8,11 +8,11 @@ Registered email id : jaideepmr@gmail.com</br>
 Re-writing the network as in link such that it is similar to the network we wrote in the class</br>
 	https://github.com/kentaroy47/vision-transformers-cifar10/blob/main/models/vit.py
 
-	 i. All parameters are the same as the network we wrote
+	i. All parameters are the same as the network we wrote
 	ii. Proceed to submit the assignment:
-   iii. Share the model code and link to the model cost
-    iv. Share the training logs
-     v.Share the gradcam images for 10 misclassified images
+	iii. Share the model code and link to the model cost
+	iv. Share the training logs
+	v.Share the gradcam images for 10 misclassified images
 
 
 1. **Model10.py Link**</br>
