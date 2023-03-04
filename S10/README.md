@@ -33,10 +33,10 @@ Re-writing the network as in link such that it is similar to the network we wrot
 ```
 
 5. Training Details</br>
-i.   <img src="images/trainingimages.png" alt="Sample Training Images"/>
-ii.  Epochs = 
-iii. Max LR = 
-iv.  Min LR = 
+i.   <img src="images/trainingimages.png" alt="Sample Training Images"/></br>
+ii.  Epochs = </br>
+iii. Max LR = </br>
+iv.  Min LR = </br>
 
 6. **Training and Validation Loss Chart**</br>
 <img src="images/trainingandloss.png" alt="Training and Loss"/>
