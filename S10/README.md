@@ -16,36 +16,23 @@ Re-writing the network as in link such that it is similar to the network we wrot
 
 
 1. **Model10.py Link**</br>
-[Model10.py](https://github.com/jai-mr/Session/blob/main/S10/src/models/model10.py)
+[Model File](https://github.com/jai-mr/Session/blob/main/S10/src/models.py)
 
 2. **Jupyter Notebook**</br>
-[Jupyter Notebook](https://github.com/jai-mr/Session/blob/main/S10/E8S10.ipynb)
+[Jupyter Notebook](https://github.com/jai-mr/Session/blob/main/S10/S10.ipynb)
 
 
 3. **Model Parameters**</br>
-```
-
-```
+[File Link](https://github.com/jai-mr/Session/blob/main/S10/log/TotalParam.md)`
 
 4. **Training Log**</br>
-```
-
-```
+[File Link](https://github.com/jai-mr/Session/blob/main/S10/log/log.md)
 
 5. Training Details</br>
-i.   <img src="images/trainingimages.png" alt="Sample Training Images"/></br>
-ii.  Epochs = </br>
-iii. Max LR = </br>
-iv.  Min LR = </br>
+i.   <img src="images/Trainaccuracy.png" alt="Training Accuracy"/></br>
+ii.  <img src="images/Trainloss.png" alt="Training Loss"/></br>>
+iii. <img src="images/Testaccuracy.png" alt="Test Accuracy"/></br>
+iv.  <img src="images/Testloss.png" alt="Test Accuracy"/></br>
 
-6. **Training and Validation Loss Chart**</br>
-<img src="images/trainingandloss.png" alt="Training and Loss"/>
-
-7. **LR Finder Graph**</br>
-<img src="images/LR-finder.png" alt="LR Finder"/>
-
-8. **LR History**</br>
-<img src="images/LR-History.png" alt="LR History"/>
-
-9. **Misclassified Images**</br>
-<img src="images/MisClassifiedImages.png" alt="MisClassified Images"/>
+5. **Misclassified Images**</br>
+<img src="images/Misclassified.png" alt="MisClassified Images"/>
