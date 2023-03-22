@@ -3,10 +3,11 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 
-
+#helper function
 def pair(t):
     return t if isinstance(t, tuple) else (t, t)
 
+#This class applies layer normalization before the input tensor is passed through the specified feedforward network
 class PreNorm(nn.Module):
     def __init__(self, dim, numb_patch, fn):
         super().__init__()
@@ -14,7 +15,8 @@ class PreNorm(nn.Module):
         self.fn = fn
     def forward(self, x, **kwargs):
         return self.fn(self.norm(x), **kwargs)
-    
+
+#  This class defines a simple feedforward network with two convolutional layers and dropout  
 class FeedForward(nn.Module):
     def __init__(self, dim, hidden_dim, dropout = 0.):
         super().__init__()
@@ -28,6 +30,9 @@ class FeedForward(nn.Module):
     def forward(self, x):
         out = self.net(x)
         return out
+    
+# This class defines a multi-head self-attention layer which takes in the dimensions of the input tensor, 
+# the number of attention heads, the dimension of each head, and the dropout probability as arguments.
     
 class Attention(nn.Module):
     def __init__(self, dim, heads = 8, dim_head = 64, dropout = 0.):
@@ -63,6 +68,7 @@ class Attention(nn.Module):
         out = out.permute(0, 2, 1, 3)
         return self.to_out(out)
     
+# This class defines the Transformer block, consisting of a multi-head self-attention layer followed by a feedforward network    
 class Transformer(nn.Module):
     def __init__(self, dim, depth, heads, dim_head, mlp_dim, numb_patch, dropout = 0.):
         super().__init__()
@@ -77,6 +83,12 @@ class Transformer(nn.Module):
             x = attn(x) + x
             x = ff(x) + x
         return x
+
+# This class defines the overall ViT model. 
+# It takes arguments - image size, patch size, number of classes
+#                    - dimensions of the model, number of Transformer layers, number of attention heads, 
+#                    - dimension of each head, dimension of the feedforward network, 
+#                    - number of patches, dropout probabilities, and pooling type.
     
 class ViT(nn.Module):
     def __init__(self, *, image_size, patch_size, num_classes, dim, depth, heads, mlp_dim, numb_patch, 
