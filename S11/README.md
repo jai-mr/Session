@@ -8,17 +8,17 @@ Registered email id : jaideepmr@gmail.com</br>
 2 part assignment:
 
 BERT
-  i. add these features to BERT training:
-  ii. collect your own data (cannot be Shakespeare or any single file downloaded from the internet. Your sources should come from multiple URLs (basically copy paste 1000s of times)
-  iii. noisy word prediction (swap any word 15% of times from a sentence with any other random word, and then predict the correct word):
-  iv.  Share a sample from your own dataset
-  v.   Share the training log (Epochs/x = 10 logs)
-  vi.  Share 10 examples of input-output
+  i. add these features to BERT training</br>
+  ii. collect your own data (cannot be Shakespeare or any single file downloaded from the internet. Your sources should come from multiple URLs (basically copy paste 1000s of times)</br>
+  iii. noisy word prediction (swap any word 15% of times from a sentence with any other random word, and then predict the correct word)</br>
+  iv.  Share a sample from your own dataset</br>
+  v.   Share the training log (Epochs/x = 10 logs)</br>
+  vi.  Share 10 examples of input-output</br>
 GPT
-  i.   implement sparse attention on your own in the GPT code that we wrote. Train on the data that you collected above:
-  ii.  Copy paste the code here for the sparse attention that you wrote
-  iii. share the training log (Epochs/x = 10 logs)
-  iv.  share 10 examples of output
+  i.   implement sparse attention on your own in the GPT code that we wrote. Train on the data that you collected above</br>
+  ii.  Copy paste the code here for the sparse attention that you wrote</br>
+  iii. share the training log (Epochs/x = 10 logs)</br>
+  iv.  share 10 examples of output</br>
 
 
 **Dataset Link for BERT & GPT**</br>
