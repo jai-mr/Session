@@ -170,7 +170,7 @@ it: 980  | loss 0.79  | Δw: 1.163
 it: 990  | loss 0.79  | Δw: 1.175
 ```
 
-##GPT-Sparse Attention
+**GPT-Sparse Attention**</br>
 1. **Jupyter Notebook**</br>
 [Jupyter Notebook](https://github.com/jai-mr/Session/blob/main/S11/S11_GPT.ipynb)
 
