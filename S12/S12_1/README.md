@@ -14,9 +14,9 @@ Registered email id : jaideepmr@gmail.com</br>
 - Upload the annotated image by YOLO<br/>
 
 #### Downloaded files
-- yolov3.weights
-- yolov3.cfg
-- Class names - coco.names
+- [yolov3.weights](https://drive.google.com/file/d/1n_goSSxtYNFhKCEGR6GRkN8fmbX-rOjH/view?usp=share_link)
+- [yolov3.cfg](https://drive.google.com/file/d/18KDbkH2435Bt9BqV2-rPH6XOiexnP-Yp/view?usp=share_link)
+- [Class names - coco.names](https://drive.google.com/file/d/1nJVVGHu8dnVJ-6lMLAeqGnJy7O0F1Kox/view?usp=share_link)
 
 #### Link to YOLOv3OpenCV code on Github<br/>
 [Github Link for jupyter notebook](https://github.com/jai-mr/Session/blob/main/S12/S12_1/12_1_Assignment_Yolo3.ipynb)
