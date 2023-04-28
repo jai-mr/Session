@@ -30,7 +30,7 @@ Re-writing the network as in link such that it is similar to the network we wrot
 
 5. Training Details</br>
 i.   <img src="images/Trainaccuracy.png" alt="Training Accuracy"/></br>
-ii.  <img src="images/Trainloss.png" alt="Training Loss"/></br>>
+ii.  <img src="images/Trainloss.png" alt="Training Loss"/></br>
 iii. <img src="images/Testaccuracy.png" alt="Test Accuracy"/></br>
 iv.  <img src="images/Testloss.png" alt="Test Accuracy"/></br>
 
