@@ -30,9 +30,9 @@ Registered email id : jaideepmr@gmail.com</br>
 3. Mid Journey</br>
    <img src="images/3_MidJourney_Style.png"></br>
 4. Depth Map</br>
-   <img src="images/1_Depthmap_Style.png"></br>   
+   <img src="images/4_Depthmap_Style.png"></br>   
 5. indian_watercolor_portraits</br>
-   <img src="images/1_IndiaWatercolourPortraits_Style.png"></br>
+   <img src="images/5_IndiaWatercolourPortraits_Style.png"></br>
    
 **BlueLoss Images**</br>
 <img src="images/1_Blueloss.png"></br>
