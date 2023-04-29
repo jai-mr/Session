@@ -3,7 +3,7 @@ Repository github url : https://github.com/jai-mr/Session </br>
 Assignment Repository : https://github.com/jai-mr/Session/blob/main/S13/README.md </br>
 Submitted by : Jaideep R - No Partners</br>
 Registered email id : jaideepmr@gmail.com</br>
-**Objective:**</br>
+**Objective:**</br> 
 
 * Read the textual inversion section on [link](https://github.com/fastai/diffusion-nbs/blob/master/Stable%20Diffusion%20Deep%20Dive.ipynb) page. 
 * There's a mention of "community-created SD concepts library" and download of learned_embeds.bin file. 
