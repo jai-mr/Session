@@ -26,6 +26,7 @@ ii. its label which is an one hot encoded vector sent through an embedding layer
 **C. Now randomly send an cifar10 image, but with a wrong label. Do this 25 times, and share what the VAE makes i.e 25 images stacked in 1 image**</br>
 
 - [VAE Cifar10 Implementation - Jupyter Notebook url](https://github.com/jai-mr/Session/blob/main/S13/2_s13_vae_cifar10.ipynb)<br/>
+
 - VAE - Cifar10</br>
 <img src="images/1_vae_cifar10.png"></br>
 
@@ -35,15 +36,19 @@ ii. its label which is an one hot encoded vector sent through an embedding layer
 **B. using the dataset https://www.kaggle.com/tanlikesmath/the-oxfordiiit-pet-datase**t </br>
 **C. strategy provided in this link https://medium.com/geekculture/u-net-implementation-from-scratch-using-tensorflow-b4342266e406**</br>
 **D. train it 4 times**</br>
+
 i. MP+Tr+BCE</br>
  [Training Log](https://github.com/jai-mr/Session/blob/main/S13/logs/3_s13_Unet_MpTrBce.log)</br>
  [Jupyter notebook link](https://github.com/jai-mr/Session/blob/main/S13/3_s13_Unet_MpTrBce.ipynb)</br>
+ 
 ii. MP+Tr+Dice Loss</br>
  [Training Log](https://github.com/jai-mr/Session/blob/main/S13/logs/4_s13_Unet_MpTrDice.log)</br>
  [Jupyter notebook link](https://github.com/jai-mr/Session/blob/main/S13/4_s13_Unet_MpTrDice.ipynb)</br>
+ 
 iii. StrConv+Tr+BCE</br>
- [Training Log](https://github.com/jai-mr/Session/blob/main/S13/logs/5_s13_UNet_StrTrBce.log)
- [Jupyter notebook link](https://github.com/jai-mr/Session/blob/main/S13/5_s13_UNet_StrTrBce.ipynb)
+ [Training Log](https://github.com/jai-mr/Session/blob/main/S13/logs/5_s13_UNet_StrTrBce.log)</br>
+ [Jupyter notebook link](https://github.com/jai-mr/Session/blob/main/S13/5_s13_UNet_StrTrBce.ipynb)</br>
+ 
 iv. StrConv+Ups+Dice Loss</br>
  [Training Log](https://github.com/jai-mr/Session/blob/main/S13/logs/6_s13_UNet_StrUpsDice.log)</br>
  [Jupyter notebook link](https://github.com/jai-mr/Session/blob/main/S13/6_s13_UNet_StrUpsDice.ipynb)</br>
