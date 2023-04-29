@@ -35,8 +35,58 @@ Registered email id : jaideepmr@gmail.com</br>
    <img src="images/5_IndiaWatercolourPortraits_Style.png"></br>
    
 **BlueLoss Images**</br>
+1. Blue Loss Details for 1st Image</br>
+```
+0it [00:00, ?it/s]
+0 loss: 141.92271423339844
+10 loss: 29.719703674316406
+20 loss: 18.659088134765625
+30 loss: 17.031496047973633
+40 loss: 16.953784942626953
+```
 <img src="images/1_Blueloss.png"></br>
+
+2. Blue Loss Details for 2nd Image</br>
+```
+0it [00:00, ?it/s]
+0 loss: 110.7269515991211
+10 loss: 34.088748931884766
+20 loss: 26.8564395904541
+30 loss: 27.021223068237305
+40 loss: 26.394193649291992
+```
 <img src="images/2_Blueloss.png"></br>
+
+3. Blue Loss Details for 3rd Image</br>
+```
+0it [00:00, ?it/s]
+0 loss: 105.44145965576172
+10 loss: 35.7091178894043
+20 loss: 26.256366729736328
+30 loss: 24.907196044921875
+40 loss: 23.560163497924805
+```
 <img src="images/3_Blueloss.png"></br>
+
+4. Blue Loss Details for 4th Image</br>
+```
+0it [00:00, ?it/s]
+0 loss: 115.1676025390625
+10 loss: 21.407459259033203
+20 loss: 13.244295120239258
+30 loss: 10.917531967163086
+40 loss: 9.765256881713867
+```
 <img src="images/4_Blueloss.png"></br>
+
+5. Blue Loss Details for 5th Image</br>
+```
+0it [00:00, ?it/s]
+0 loss: 123.7182388305664
+10 loss: 28.350141525268555
+20 loss: 29.43543815612793
+30 loss: 28.606807708740234
+40 loss: 27.957504272460938
+```
 <img src="images/5_Blueloss.png"></br>
+
