@@ -1,0 +1,52 @@
+```
+EPOCH: 0
+Loss=0.9859 Batch=183: 100%
+184/184 [1:06:20<00:00, 21.29s/it]
+Train set: Epoch : 1/10 Average loss: 0.9859
+Test set: Epoch : 1/10 Average loss: 0.0309  test_loss : 45.3568 
+EPOCH: 1
+Loss=0.9858 Batch=183: 100%
+184/184 [01:32<00:00, 2.18it/s]
+Train set: Epoch : 2/10 Average loss: 0.9858
+Test set: Epoch : 2/10 Average loss: 0.0309  test_loss : 45.3552 
+EPOCH: 2
+Loss=0.9862 Batch=183: 100%
+184/184 [01:35<00:00, 2.15it/s]
+Train set: Epoch : 3/10 Average loss: 0.9862
+Test set: Epoch : 3/10 Average loss: 0.0309  test_loss : 45.3532 
+EPOCH: 3
+Loss=0.9857 Batch=183: 100%
+184/184 [01:37<00:00, 1.86it/s]
+Train set: Epoch : 4/10 Average loss: 0.9857
+Test set: Epoch : 4/10 Average loss: 0.0309  test_loss : 45.3492 
+EPOCH: 4
+Loss=0.9859 Batch=183: 100%
+184/184 [01:35<00:00, 2.01it/s]
+Train set: Epoch : 5/10 Average loss: 0.9859
+Test set: Epoch : 5/10 Average loss: 0.0309  test_loss : 45.3457 
+EPOCH: 5
+Loss=0.9856 Batch=183: 100%
+184/184 [01:32<00:00, 2.29it/s]
+Train set: Epoch : 6/10 Average loss: 0.9856
+Test set: Epoch : 6/10 Average loss: 0.0309  test_loss : 45.3430 
+EPOCH: 6
+Loss=0.9855 Batch=183: 100%
+184/184 [01:36<00:00, 2.13it/s]
+Train set: Epoch : 7/10 Average loss: 0.9855
+Test set: Epoch : 7/10 Average loss: 0.0309  test_loss : 45.3386 
+EPOCH: 7
+Loss=0.9853 Batch=183: 100%
+184/184 [01:36<00:00, 2.10it/s]
+Train set: Epoch : 8/10 Average loss: 0.9853
+Test set: Epoch : 8/10 Average loss: 0.0309  test_loss : 45.3348 
+EPOCH: 8
+Loss=0.9852 Batch=183: 100%
+184/184 [01:36<00:00, 2.17it/s]
+Train set: Epoch : 9/10 Average loss: 0.9852
+Test set: Epoch : 9/10 Average loss: 0.0309  test_loss : 45.3291 
+EPOCH: 9
+Loss=0.9854 Batch=183: 100%
+184/184 [01:37<00:00, 1.88it/s]
+Train set: Epoch : 10/10 Average loss: 0.9854
+Test set: Epoch : 10/10 Average loss: 0.0309  test_loss : 45.3227 
+```
