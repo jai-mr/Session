@@ -36,22 +36,14 @@ ii. its label which is an one hot encoded vector sent through an embedding layer
 **C. strategy provided in this link https://medium.com/geekculture/u-net-implementation-from-scratch-using-tensorflow-b4342266e406**</br>
 **D. train it 4 times**</br>
 i. MP+Tr+BCE</br>
+ [Training Log](https://github.com/jai-mr/Session/blob/main/S13/logs/3_s13_Unet_MpTrBce.log)</br>
+ [Jupyter notebook link](https://github.com/jai-mr/Session/blob/main/S13/3_s13_Unet_MpTrBce.ipynb)</br>
 ii. MP+Tr+Dice Loss</br>
+ [Training Log](https://github.com/jai-mr/Session/blob/main/S13/logs/4_s13_Unet_MpTrDice.log)</br>
+ [Jupyter notebook link](https://github.com/jai-mr/Session/blob/main/S13/4_s13_Unet_MpTrDice.ipynb)</br>
 iii. StrConv+Tr+BCE</br>
+ [Training Log](https://github.com/jai-mr/Session/blob/main/S13/logs/5_s13_UNet_StrTrBce.log)
+ [Jupyter notebook link](https://github.com/jai-mr/Session/blob/main/S13/5_s13_UNet_StrTrBce.ipynb)
 iv. StrConv+Ups+Dice Loss</br>
-
-
-**DELETE BELOW**
-#### Downloaded files
-- [yolov3.weights](https://drive.google.com/file/d/1n_goSSxtYNFhKCEGR6GRkN8fmbX-rOjH/view?usp=share_link)
-- [yolov3.cfg](https://drive.google.com/file/d/18KDbkH2435Bt9BqV2-rPH6XOiexnP-Yp/view?usp=share_link)
-- [Class names - coco.names](https://drive.google.com/file/d/1nJVVGHu8dnVJ-6lMLAeqGnJy7O0F1Kox/view?usp=share_link)
-
-#### Link to YOLOv3OpenCV code on Github<br/>
-[Github Link for jupyter notebook](https://github.com/jai-mr/Session/blob/main/S12/S12_1/12_1_Assignment_Yolo3.ipynb)
-
-#### Link to the image annotated by OpenCV YOLO inference</>
-[Original Image Link](image/Self_1.jpeg)<br/>
-[Annotated Image by Open CV Yolo inference](image/Self_1_bb.png)
-
- 
+ [Training Log](https://github.com/jai-mr/Session/blob/main/S13/logs/6_s13_UNet_StrUpsDice.log)</br>
+ [Jupyter notebook link](https://github.com/jai-mr/Session/blob/main/S13/6_s13_UNet_StrUpsDice.ipynb)</br>
