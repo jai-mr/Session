@@ -12,12 +12,31 @@ Registered email id : jaideepmr@gmail.com</br>
 * now apply your own variant of "blue_loss" (it cannot be red, green or blue loss) on the same prompts with each concepts library and store the results. 
 * Post these 10 images in github 
 
-**Stable Diffusion Styles**</br>
+**Stable Diffusion Styles Bin File Link**</br>
 1. [Nebula](https://github.com/jai-mr/Session/blob/main/S14/nebula_embeds.bin)</br>
 2. [Border Lands](https://github.com/jai-mr/Session/blob/main/S14/borderlands_embeds.bin)</br>
 3. [MidJourney](https://github.com/jai-mr/Session/blob/main/S14/midjourney_embeds.bin)</br>
-4. [depthmap](https://github.com/jai-mr/Session/blob/main/S14/depthmap_embeds.bin)</br>
+4. [Depthmap](https://github.com/jai-mr/Session/blob/main/S14/depthmap_embeds.bin)</br>
 5. [indian_watercolor_portraits](https://github.com/jai-mr/Session/blob/main/S14/indian_watercolor_portraits_embeds.bin)</br>
 
-**Notebook Link**</br>
+**Notebook Link**c
 [Jupyter Notebook Link](https://github.com/jai-mr/Session/blob/main/S14/s14_5_Styles_Textual_Inversion.ipynb)</br>
+
+**Style Images**</br>
+1. Nebula</br>
+   <img src="images/1_Nebula_Style.png"></br>
+2. Border Lands</br>
+   <img src="images/2_BorderLands_Style.png"></br>
+3. Mid Journey</br>
+   <img src="images/3_MidJourney_Style.png"></br>
+4. Depth Map</br>
+   <img src="images/1_Depthmap_Style.png"></br>   
+5. indian_watercolor_portraits</br>
+   <img src="images/1_IndiaWatercolourPortraits_Style.png"></br>
+   
+**BlueLoss Images**</br>
+<img src="images/1_Blueloss.png"></br>
+<img src="images/2_Blueloss.png"></br>
+<img src="images/3_Blueloss.png"></br>
+<img src="images/4_Blueloss.png"></br>
+<img src="images/5_Blueloss.png"></br>
